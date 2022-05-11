@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Desafio#1</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Titan+One&display=swap" rel="stylesheet">
+    
+</head>
+    <body>
+        <header class="caixa">
+            <h1><img src="img/cripto.png" class="logo"></h1>
+        </header>
+        <main>
+            <div>
+                <h2 class="titulo">Criptografador e Descriptografador</h2>
+            </div>
+            <section class="campos">
+                <textarea id="entrada" cols="44" rows="17" placeholder="*Digite seu texto" onfocus="apagar()"></textarea>
+                <textarea id="saida" cols="44" rows="17"></textarea>
+            </section>
+            <div>
+                <p class="aviso">*Apenas letras minusculas e sem acento!!</p>
+            </div>
+            <div class="botoes">
+                <button id="botao-criptografar" onclick="criptografar()">Criptografar</button>
+                <button id="botao-descriptografar" onclick="descriptografar()" >Descriptografar</button> 
+                <button id="copiar">Copiar</button>
+            </div>
+        </main>
+
+        <script src="principal.js" ></script>
+        <footer>
+                <p class="copyright">&copy; Copyright Osvaldo Holanda - 2022</p>
+        </footer>
+    </body>
+</html>

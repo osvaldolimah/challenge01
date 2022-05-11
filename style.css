@@ -1,0 +1,129 @@
+body {
+	background: #B7D5E5;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.caixa {
+	width: 940px;
+}
+
+.logo {
+	float: left;
+	width: 180px;
+	padding: auto;
+	position: absolute;
+
+}
+
+.titulo {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	margin: 1em 6em 1em 6em;
+}
+
+.campos {
+	text-align: center;
+	margin: auto auto 1em;
+	border: none;
+}
+
+.botoes {
+	text-align: center;
+	margin: auto auto 3em;
+}
+
+#copiar {
+	margin: auto auto auto 3em;
+	width:18%;
+	padding: 10px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#copiar:hover {
+	padding-right: 25px;
+}
+
+#entrada {
+	padding: 15px;
+	border: none;
+	border-radius: 25px;
+	margin: auto 2em;
+	font-size: 15px;
+}
+
+#entrada::placeholder{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+#saida {
+	padding: 15px;
+	border: none;
+	border-radius: 25px;
+	margin: auto 1em;
+	font-size: 15px;
+	overflow: hidden;
+	background-image: url("img/imagem.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.aviso {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 2em;
+}
+
+#botao-criptografar {
+	width:18%;
+	padding: 10px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#botao-criptografar:hover {
+	padding-right: 25px;
+}
+
+#botao-descriptografar {
+	width:18%;
+	padding: 10px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#botao-descriptografar:hover {
+	padding-right: 25px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	margin: auto auto 2em auto;
+}
+
